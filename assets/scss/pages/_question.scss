@@ -1,0 +1,28 @@
+.question{
+    ul{
+        width: 80%;
+        @include pad() {
+            width: 100%;
+        }
+    }
+}
+.tit-dec {
+    color: $color-dark;
+    font-weight: $font-weight-semibold;
+    position: relative;
+    padding-left: 20px;
+}
+.tit-dec::after {
+    content: "";
+    position: absolute;
+    background: $color-primary;
+    height: 100%;
+    width: 6px;
+    top: 0;
+    left: 2px;
+}
+@include mobile() {
+    h3{
+        font-size: $fs-4;
+    }
+}

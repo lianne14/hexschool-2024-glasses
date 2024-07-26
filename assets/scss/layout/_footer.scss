@@ -1,0 +1,65 @@
+footer{
+  color: $color-light;
+  background-color: $color-primary;
+  padding: 64px 0 32px 0;
+  @include mobile() {
+    padding: 24px 0;
+  }
+}
+nav{ 
+  li{
+    font-size: $fs-5;
+    font-weight: $font-weight-light;
+    margin-bottom: 32px;
+    a{
+      display: inline-block;
+    }
+  }
+  h3{
+    padding-left: 8px;
+    color: $color-light;
+    font-weight: $font-weight-normal;
+    margin-left: 8px;
+    @include mobile() {
+      font-size: $fs-base;
+    }
+  }
+}
+
+.social{
+  width: 208px;
+  @include pad() {
+    width: 96px;
+  }
+  @include mobile() {
+    width: 88px;
+  }
+  li{
+    width: 48px;
+    @include pad() {
+      width: 40px;
+    }
+    @include mobile() {
+      width: 24px;
+    }
+  }
+}
+
+nav{
+  border-bottom: 1px solid $color-light;
+  padding-bottom: 32px;
+}
+
+.map{
+  ul{
+    width: 208px;
+  }
+  a{
+    display: inline-block;
+  }
+  @include mobile() {
+    li{
+      padding-top: 8px;
+    }
+  }
+}

@@ -1,0 +1,146 @@
+.banner{
+  background-image: url(/assets/images/home-header.png);
+  background-position: top center;
+  background-size: cover;
+  .tit{
+    max-width: 600px;
+    margin-left: auto;
+    text-align: end;
+  }
+  @include pad () {
+    background-image: url(/assets/images/home-header-sm.png);
+  }
+}
+// article pro 
+.pro{
+  background-color: #FBF2F2;
+  li{
+    width: calc((100% / 4) - 1%);
+    height: 100%;
+  }
+  img{
+    width: 84px;
+    margin-bottom: 16px;
+  }
+  h4{
+    font-size: $fs-4;
+    color: $color-secondary;
+    font-weight: $font-weight-bold;
+    margin-bottom: 8px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-style: normal;  
+  }
+  p{
+    text-align: left;
+  }
+  @include pad(){
+    li{
+     width: calc((100% / 2) - 1%);
+     margin-bottom: 32px;
+    }
+  }
+  @include mobile(){
+    li{
+      width: 100%;
+    }
+  }
+}
+// classic
+.classic{
+  a{
+    font-weight: $font-weight-bold;
+    display: inline-block;
+    width: calc((100% / 3) - 1%);
+    @include pad(){
+      width: 88%;
+      margin-bottom: 24px;
+    }
+    img{
+      margin-bottom: 8px;
+    }
+  }
+}
+// cobranding
+.cobranding{
+    background-image: url(/assets/images/index-bg.png);
+    background-size: cover;
+    background-position: top center;
+    @include pad(){
+     background-image: url(/assets/images/index-bg-md.png);
+     a{
+      display: inline-block;
+      width: 88%;
+      margin-bottom: 24px;
+     }
+    }
+    @include mobile(){
+      background-image: url(/assets/images/index-bg-sm.png);
+    }
+}
+// recomm
+.card{
+  width: calc((100% / 4) - 1%);
+  box-shadow: 0px 2px 6px #00000029;
+  border: 1px solid #DEE2E6;
+  border-radius: 4px;
+  height: 100%;
+
+  @include pad(){
+    width: calc((100% / 2) - 1%);
+    height: 100%;
+    margin-bottom: 24px;
+  }
+  @include mobile(){
+    width: 88%;
+  }
+  .text{
+    height: 205px;
+    padding: 16px;
+  }
+  time{
+    color: $color-gray;
+    font-size: 14px;
+    display: inline-block;
+    width: 50px;
+    margin-top: auto;
+  }
+}
+.content {
+  max-width: 100%;
+  height: 100%;
+}
+//contact
+.contact{
+  .from{
+    width: 50%;
+    @include pad(){
+      max-width: 88%;
+    }
+    @include mobile(){
+      width: 100%;
+    }
+  }
+  background-color: #FBF2F2;
+  label{
+    width: 100%;
+    display: inline-block;
+  }
+  input{
+    width: 100%;
+    background-color: #FBF2F2;
+    border: 1px solid;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  .checkbox input{
+    width: 24px;
+  }
+  h5{
+    font-weight: $font-weight-normal;
+    @include pad(){
+      font-size: $fs-base;
+    }
+  }
+}
+

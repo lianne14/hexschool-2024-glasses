@@ -1,0 +1,51 @@
+.store{
+    ul{
+        width: 100%;
+        margin-left: -12px;
+    }
+    li{
+        width: calc((100% / 3 ) - 1%);
+        border: 1px solid #00000020;
+        margin-left: 12px;
+        @include pad() {
+            width: 48%;
+        }
+        @include mobile() {
+            width: 100%;
+            }
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        background-color: $color-dark;
+        font-size: 18px;
+        margin-top: 18px;
+        font-weight: $font-weight-light;
+    }
+    h4{
+        padding: 16px;
+    }
+    .border-m{
+        border-bottom: 1px solid #00000020;
+    }
+}
+.infor{
+    color: $color-gray; 
+    a{
+        color: $color-gray; 
+        height: 100%;
+    }
+    .icon{
+        font-size: 18px;
+        vertical-align: sub;
+    }
+} 
+.select{
+    select{
+        width: 307px;
+        color: $color-gray;
+        padding: 4px 0;
+    }
+}

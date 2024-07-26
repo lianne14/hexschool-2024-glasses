@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <div class="container p-x-m">
+      <div class="store p-auto">
+      <h3 class="tit-dec mb-m">門市據點</h3>
+      <div class="select d-flex aic">
+        <h4>選擇地區</h4>
+        <select class="form-select">
+          <option selected>台北市</option>
+          <option value="1">台中市</option>
+          <option value="2">高雄市</option>
+        </select>
+      </div>
+      <ul class="d-flex d-sm-cloumn fww">
+        <!-- card 01 台北店 -->
+        <li class="mt-m card">
+          <img src="../assets/images/store-1.png" alt="taipei-store">
+          <h4 class="border-m">台北中山旗艦店</h4>
+          <div class="infor mx-s">
+            <div class="mx-s">
+              <a href="tel:(02)000-1234">
+                <span class="material-symbols-outlined icon">
+                  call
+                  </span>
+                電話：(02)000-1234
+              </a>
+            </div>
+            <div class="mx-s">
+              <span class="material-symbols-outlined icon">
+                schedule
+                </span>
+              營業時間：10:00-21:00
+            </div>
+            <div class="mx-s">
+              <a href="https://maps.app.goo.gl/dUrYaLHi2WZRCJpEA">
+               
+                <span class="material-symbols-outlined icon">
+                  location_on
+                </span> 
+                地址：台北市中山區南京東路25巷2-1號
+              </a>
+            </div>
+          </div>
+          <button><a href="#">詳細資訊</a></button>
+        </li>
+
+        <!-- card 02 台北綠園店 -->
+        <li class="mt-m card">
+          <img src="../assets/images/store-2.png" alt="taipei-store">
+          <h4 class="border-m">台北綠園店</h4>
+          <div class="infor mx-s">
+            <div class="mx-s">
+              <a href="tel:(02)000-2345">
+                <span class="material-symbols-outlined icon">
+                  call
+                  </span>
+                  電話：(02)000-2345
+              </a>
+            </div>
+            <div class="mx-s">
+              <span class="material-symbols-outlined icon">
+                schedule
+                </span>
+              營業時間：10:00-21:00
+            </div>
+            <div class="mx-s">
+              <a href="https://maps.app.goo.gl/dUrYaLHi2WZRCJpEA">
+               
+                <span class="material-symbols-outlined icon">
+                  location_on
+                </span> 
+                地址：台北市中正區復興南路 132-1 號
+              </a>
+            </div>
+          </div>
+          <button><a href="#">詳細資訊</a></button>
+        </li>
+
+         <!-- card 03 台中清水旗艦店 -->
+         <li class="mt-m card">
+          <img src="../assets/images/store-3.png" alt="taipei-store">
+          <h4 class="border-m">台中清水旗艦店</h4>
+          <div class="infor mx-s">
+            <div class="mx-s">
+              <a href="tel:(02)000-1234">
+                <span class="material-symbols-outlined icon">
+                  call
+                  </span>
+                  電話：(02)000-1234
+              </a>
+            </div>
+            <div class="mx-s">
+              <span class="material-symbols-outlined icon">
+                schedule
+                </span>
+              營業時間：10:00-21:00
+            </div>
+            <div class="mx-s">
+              <a href="https://maps.app.goo.gl/dUrYaLHi2WZRCJpEA">
+               
+                <span class="material-symbols-outlined icon">
+                  location_on
+                </span> 
+                地址：台中市清水區經南一路 23 號 8 樓
+              </a>
+            </div>
+          </div>
+          <button><a href="#">詳細資訊</a></button>
+        </li>
+
+         <!-- card 04 高雄中正形象店 -->
+         <li class="mt-m card">
+          <img src="../assets/images/store-4.png" alt="taipei-store">
+          <h4 class="border-m">高雄中正形象店</h4>
+          <div class="infor mx-s">
+            <div class="mx-s">
+              <a href="tel:(02)000-2345">
+                <span class="material-symbols-outlined icon">
+                  call
+                  </span>
+                  電話：(02)000-2345
+              </a>
+            </div>
+            <div class="mx-s">
+              <span class="material-symbols-outlined icon">
+                schedule
+                </span>
+              營業時間：10:00-21:00
+            </div>
+            <div class="mx-s">
+              <a href="https://maps.app.goo.gl/dUrYaLHi2WZRCJpEA">
+               
+                <span class="material-symbols-outlined icon">
+                  location_on
+                </span> 
+                地址：高雄市苓雅區中正路 38 號 12 樓
+              </a>
+            </div>
+          </div>
+          <button><a href="#">詳細資訊</a></button>
+        </li>
+
+         <!-- card 05 高雄夢時代店 -->
+         <li class="mt-m card">
+          <img src="../assets/images/store-5.png" alt="taipei-store">
+          <h4 class="border-m">高雄夢時代店</h4>
+          <div class="infor mx-s">
+            <div class="mx-s">
+              <a href="tel:(02)000-1234">
+                <span class="material-symbols-outlined icon">
+                  call
+                  </span>
+                  電話：(02)000-1234
+              </a>
+            </div>
+            <div class="mx-s">
+              <span class="material-symbols-outlined icon">
+                schedule
+                </span>
+              營業時間：10:00-21:00
+            </div>
+            <div class="mx-s">
+              <a href="https://maps.app.goo.gl/dUrYaLHi2WZRCJpEA">
+               
+                <span class="material-symbols-outlined icon">
+                  location_on
+                </span> 
+                地址：高雄市前鎮區中華一路 63 號 6 樓
+              </a>
+            </div>
+          </div>
+          <button><a href="#">詳細資訊</a></button>
+        </li>        
+      </ul>
+    </div>
+  </div>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
