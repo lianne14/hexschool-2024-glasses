@@ -1,5 +1,5 @@
 .banner{
-  background-image: url(/assets/images/home-header.png);
+  background-image: url(assets/images/home-header.png);
   background-position: top center;
   background-size: cover;
   .tit{
@@ -8,7 +8,7 @@
     text-align: end;
   }
   @include pad () {
-    background-image: url(/assets/images/home-header-sm.png);
+    background-image: url(assets/images/home-header-sm.png);
   }
 }
 // article pro 
@@ -63,11 +63,11 @@
 }
 // cobranding
 .cobranding{
-    background-image: url(/assets/images/index-bg.png);
+    background-image: url(assets/images/index-bg.png);
     background-size: cover;
     background-position: top center;
     @include pad(){
-     background-image: url(/assets/images/index-bg-md.png);
+     background-image: url(assets/images/index-bg-md.png);
      a{
       display: inline-block;
       width: 88%;
@@ -75,7 +75,7 @@
      }
     }
     @include mobile(){
-      background-image: url(/assets/images/index-bg-sm.png);
+      background-image: url(assets/images/index-bg-sm.png);
     }
 }
 // recomm
