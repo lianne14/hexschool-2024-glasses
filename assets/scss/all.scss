@@ -1,12 +1,20 @@
-@import '../abstracts/variables.scss';
-@import '../abstracts/mixins.scss';
-@import '../base/reset.scss';
-@import '../base/fontStyle.scss';
-@import '../base/base.scss';
-@import '../utilities/utilities.scss';
-@import '../components/button.scss';
-@import '../layout/footer.scss';
-@import '../layout/header.scss';
-@import '../pages/index.scss';
-@import '../pages/question.scss';
-@import '../pages/store.scss';
+@import './abstracts/variables.scss';
+@import './abstracts/mixins.scss';
+
+@import './base/reset.scss';
+@import './base/fontStyle.scss';
+@import './base/base.scss';
+
+
+@import './utilities/utilities.scss';
+
+@import './components/button.scss';
+
+@import './layout/footer.scss';
+@import './layout/header.scss';
+
+
+@import './pages/index.scss';
+@import './pages/question.scss';
+@import './pages/store.scss';
+
